@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(224, 153, 177);
+   
+    
+    }
+    img{
+        width: 700px;
+        height: 700px;
+        
+        
+        margin-left: 800px;
+
+    }
+    
+
+.login{
+   
+        
+    display: flex;
+    flex-direction: column;
+    border: 2px solid palevioletred;
+    gap:20px;
+    align-items: center;
+    width:200px;
+    height: 200px;
+    margin-top: -600px;
+    padding:20px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 100px;
+
+    
+}
+button{
+    font-size: large;
+    border-radius: 5px;
+    color: white;
+    background-color:palevioletred;
+    border: 2px solid palevioletred;
+}
+input{
+    border-radius: 5px;
+    border: 2px solid palevioletred;
+}
+h3{
+    margin-top: 0px;
+    color: palevioletred;
+}
+@media (max-width: 768px) {
+    img {
+        width: 750px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .login {
+        width: 250px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    button {
+        font-size: medium;
+        padding: 10px;
+    }
+
+    input {
+        padding: 10px;
+    }
+}
+@media (max-width: 480px) {
+    body {
+        background-color: rgb(240, 200, 215);
+    }
+
+    img {
+        width: 400px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .login {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+        margin: 20px auto;
+        gap: 15px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: small;
+        padding: 8px;
+    }
+
+    input {
+        padding: 8px;
+        font-size: small;
+    }
+}

@@ -1,0 +1,100 @@
+
+    body{
+        background-color: rgb(219, 134, 162);
+    }
+    .aboutgame  {
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+        
+        
+    }
+    .images{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+     .image{
+        margin-top: -500px;
+        margin-left:900px;
+        width: 200px;
+        height: 800px;
+    }
+    button{
+        background-color:white;
+        color: rgb(177, 133, 147);
+        border-radius: 5px;
+        border: 2px solid rgb(184, 112, 136);
+        margin-left: 1040px;
+        margin-top:-380px;
+        position: absolute;
+        font-size: large;
+        padding: 20px;
+    
+    }
+    @media (max-width: 768px) {
+        .aboutgame {
+            /* width: 90%; */
+            margin-left: 10px;
+            width: 90%;
+            
+            
+        }
+    
+        .images {
+            flex-direction: column;
+            margin-left: 10px;
+            /* align-items: center;
+            justify-content: center;
+             */
+    
+        }
+    
+        #play {
+            font-size: medium;
+            padding: 15px;
+            margin-left:200px;
+        }
+        .image {
+          margin-top:50px;
+          margin-left: 20px;
+          
+        
+    }
+    @media (max-width: 480px) {
+        .aboutgame {
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            margin-left:50px;
+        }
+    
+        .images {
+            gap: 10px;
+        }
+    
+        .image img {
+            
+            width: 400px;
+            height: 300px;
+            margin-top: 10px;
+            margin-left:-130px;
+            display: flex;
+            flex-direction: row;
+        }
+    
+        #play {
+        
+            padding: 30px;
+            margin-top: -500px;
+            margin-left: 150px;
+            
+            
+        }
+    }
+

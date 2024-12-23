@@ -1,0 +1,107 @@
+html ,body{
+    
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+body{
+    background-image: url("https://media.gettyimages.com/id/1308387491/photo/rock-paper-scissors.jpg?s=612x612&w=0&k=20&c=B3hv0s9eUW1rGHgb3FrjWu4IScxb2CvAVaw_KWk5uss=");
+    width: 1000%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+}
+.signuppage{
+        display: flex;
+       margin-top:0px;
+        margin-left:550px;
+        flex-direction: column;
+        gap: 20px;
+        width: 300px;
+        height: 200px;
+        background-color: white;
+        border: 2px solid rgb(216, 153, 174);
+        padding: 20px;
+        border-radius:5px;
+
+
+    }
+    button{
+        background-color: rgb(208, 132, 158);
+        border-radius: 5px;
+        color: white;
+        border: 2px solid rgb(222, 142, 169);
+        font-size: large;
+    }
+    h3{
+        color:rgb(190, 108, 135);
+        margin-top: 0px;
+        text-align: center;
+    }
+    input{
+        border-radius: 10px;
+        border: 2px solid rgb(228, 148, 175);
+    }
+    @media (max-width: 768px) {
+        .signuppage {
+            width:300px;
+            margin-left: 300px;
+            display: flex;
+            flex-direction: column;
+            font-size: 2px;
+            height: 200px;
+            margin-top: 0px;
+            
+             
+
+        }
+    
+        h3 {
+            font-size: 1.5rem;
+        }
+    
+        button {
+            font-size: medium;
+            padding: 10px;
+        }
+        input {
+            padding: 10px;
+        }
+    }
+    @media (max-width: 480px) {
+        body {
+            background-size: cover;
+            height: auto;
+        }
+    
+        .signuppage {
+            width:120px;
+            margin-left: 150px;
+            display: flex;
+            flex-direction: column;
+            font-size: 2px;
+            height: 100px;
+            margin-top: 0px;
+            
+        }
+    
+        h3 {
+            font-size:10px;
+        }
+    
+        button {
+            font-size: 10px;
+            padding: 2px;
+        }
+    
+        input {
+            padding: 2px;
+            font-size: 10px;
+            
+        }
+    }
+    
