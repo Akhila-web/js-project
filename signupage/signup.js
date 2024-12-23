@@ -25,7 +25,7 @@ button.addEventListener("click",(e)=>{
         return;
     }
     if (!passwordpattern.test(password.value)){
-        errormessage.textContent="please enter valid password"
+        errormessage.textContent="please enter valid password it should contain 9 characters"
         return
     }
     errormessage.textContent=""
