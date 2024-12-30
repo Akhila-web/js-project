@@ -13,7 +13,7 @@ button.addEventListener("click",(e)=>{
     localStorage.setItem("name",namevalue)
     localStorage.setItem("email",emailvalue)
     localStorage.setItem("password",passwordvalue)
-    const namepattern=/^[a-zA-z""]{3,}$/
+    const namepattern=/^[a-zA-z" "]{3,}$/
     const emailpattern=/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
     const passwordpattern=/^[a-zA-Z0-9.*][a-zA-Z\d]{8,}$/
     if (!namepattern.test(name.value)){
